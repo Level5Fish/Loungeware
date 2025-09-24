@@ -23,6 +23,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20149116","properties":[],"isDnd":false,"objectId":{"name":"fish_obj_border","path":"objects/fish_obj_border/fish_obj_border.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":12.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":368.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_702B642D","properties":[],"isDnd":false,"objectId":{"name":"fish_obj_border","path":"objects/fish_obj_border/fish_obj_border.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":12.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D97D9E0","properties":[],"isDnd":false,"objectId":{"name":"fish_obj_border","path":"objects/fish_obj_border/fish_obj_border.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":12.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C876155","properties":[],"isDnd":false,"objectId":{"name":"fish_obj_baby","path":"objects/fish_obj_baby/fish_obj_baby.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-256.0,"y":32.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5538B03E","spriteId":{"name":"fish_spr_border_thing","path":"sprites/fish_spr_border_thing/fish_spr_border_thing.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-32.0,},
@@ -39,6 +40,7 @@
     {"name":"inst_20149116","path":"rooms/fish_pickle_sniffer_room/fish_pickle_sniffer_room.yy",},
     {"name":"inst_702B642D","path":"rooms/fish_pickle_sniffer_room/fish_pickle_sniffer_room.yy",},
     {"name":"inst_3D97D9E0","path":"rooms/fish_pickle_sniffer_room/fish_pickle_sniffer_room.yy",},
+    {"name":"inst_5C876155","path":"rooms/fish_pickle_sniffer_room/fish_pickle_sniffer_room.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -5,11 +5,17 @@ repeat(increment_amount)
 	{
 		navigate(point_direction(x, y, target.x, target.y), obstacles, 45, 4)
 		
-		if(point_distance(x, y, room_width / 2, room_height / 2) > 150 && increments_taken >= difficulty_wander_times[clamp(DIFFICULTY, 0, array_length(difficulty_wander_times) - 1)] * 60 * 2 / move_speed)
+		if(increments_taken >= difficulty_wander_times[clamp(DIFFICULTY, 0, array_length(difficulty_wander_times) - 1)] * 60 * 2 / move_speed)
 		{
-			//direction = point_direction(x, y, target.x, target.y)
-			fish_obj_pickle.x = x
-			fish_obj_pickle.y = y
+			if(point_distance(x, y, fish_obj_herbert.x, fish_obj_herbert.y) > 150)
+			{
+				fish_obj_pickle.x = x
+				fish_obj_pickle.y = y
+			}
+			else
+			{
+				direction = point_direction(x, y, target.x, target.y)
+			}
 		}
 	}
 	else

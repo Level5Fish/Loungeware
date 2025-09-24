@@ -4,7 +4,7 @@ if(!guy_eaten && instance_exists(target))
 	image_xscale = sign(target.x - x)
 }
 
-if(!guy_eaten && instance_exists(target) && point_distance(x, y, target.x, target.y) <= 32)
+if(destroy_check && !guy_eaten && instance_exists(target) && point_distance(x, y, target.x, target.y) <= 32)
 {
 	guy_eaten = true
 	sprite_index = fish_spr_pickler_eat

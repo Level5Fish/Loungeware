@@ -10,20 +10,23 @@ i_have_pickle = false
 x = room_width / 2
 y = room_height / 2
 
-instance_create_layer(x, y, "Instances", fish_obj_path_maker)
-instance_create_layer(x, y, "Instances", fish_obj_pickle)
+shit_spawned = false
+//camera_set_view_pos(CAMERA, x - (VIEW_W / 2), y - (VIEW_H / 2))
 
-if(DIFFICULTY > 2)
-{
-	repeat(1 + (DIFFICULTY > 3))
-	{
-		repeat(irandom_range(4, 6))
-		{
-			var wall_border = 96
-			instance_create_layer(random_range(wall_border, room_width - wall_border), random_range(wall_border, room_height - wall_border), "Instances", fish_obj_wall)
-		}
-	}
-}
+//instance_create_layer(x, y, "Instances", fish_obj_path_maker)
+//instance_create_layer(x, y, "Instances", fish_obj_pickle)
+
+//if(DIFFICULTY > 2)
+//{
+//	repeat(1 + (DIFFICULTY > 3))
+//	{
+//		repeat(irandom_range(4, 6))
+//		{
+//			var wall_border = 96
+//			instance_create_layer(random_range(wall_border, room_width - wall_border), random_range(wall_border, room_height - wall_border), "Instances", fish_obj_wall)
+//		}
+//	}
+//}
 
 
 push_away_from = function(object, intensity = 1, max_checks = 100)
