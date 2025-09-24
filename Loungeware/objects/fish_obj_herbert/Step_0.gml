@@ -45,5 +45,5 @@ camera_set_view_pos(CAMERA, lerp(VIEW_X, goal_cam_pos[0], cam_lerp), lerp(VIEW_Y
 //SNIFFING
 if(!i_have_pickle && !audio_is_playing(fish_sniff) && irandom(30) == 0)
 {
-	audio_play_sound(fish_sniff, 9, false)
+	sfx_play(fish_sniff, 9, false)
 }

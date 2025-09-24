@@ -19,6 +19,13 @@ room_border = 32
 x = random_range(room_border, room_width - room_border)
 y = random_range(room_border, room_height - room_border)
 
+if(point_distance(x, y, room_width / 2, room_height / 2) <= 150)
+{
+	var rand_dir = random(360)
+	x += lengthdir_x(100, rand_dir)
+	y += lengthdir_y(100, rand_dir)
+}
+
 direction = random(360)
 
 navigate = function(move_direction, obstacle, sense_length, rotation_speed = 3, sense_detail = 6, sense_spread = 120, nav_speed_multiplier = 1, x_pos = x, y_pos = y)

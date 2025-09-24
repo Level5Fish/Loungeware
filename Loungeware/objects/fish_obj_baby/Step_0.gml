@@ -9,6 +9,7 @@ if(instance_exists(target))
 	if(!scared && point_distance(x, y, target.x, target.y) <= scare_dist)
 	{
 		scared = true
+		sfx_play(fish_baby_noise)
 	}
 }
 

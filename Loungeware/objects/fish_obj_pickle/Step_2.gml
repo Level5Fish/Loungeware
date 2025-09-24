@@ -15,7 +15,7 @@ if(place_meeting(x, y, fish_obj_herbert))
 		fading = true
 	}
 	
-	audio_play_sound(fish_chomp_bite_pickle_fun, 10, false)
+	sfx_play(fish_chomp_bite_pickle_fun, 10, false)
 	
 	instance_destroy()
 }
