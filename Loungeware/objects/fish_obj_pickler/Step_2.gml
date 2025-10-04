@@ -11,6 +11,5 @@ if(destroy_check && !guy_eaten && instance_exists(target) && point_distance(x, y
 	image_index = 0
 	instance_destroy(host)
 	instance_destroy(fish_obj_herbert)
-	
-	audio_play_sound(fish_chomp_bite_pickle_fun, 10, false, 1, 0, .3)
+	sfx_play(fish_chomp_bite_pickle_fun, 1, false, 0.3)
 }
